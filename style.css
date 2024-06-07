@@ -1,0 +1,75 @@
+h1, h2{
+ text-align: center;
+}
+body
+{
+    background-color: steelblue;
+}
+.okay
+{
+ text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    padding: 5px;
+    background-size: cover;
+    
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h3{
+    color: red;
+  }
+  .value
+  {
+    display: flex;
+    color: red;
+    
+  }
+  .log
+  {
+    display: flex;
+  }
+  .center
+  {
+    text-align: center;
+  }
+  .fuck
+  {
+    text-align: justify;
+  }
+  .titl
+  {
+    text-wrap: wrap;
+  }
+  .learn
+  {
+    width: 400px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+  }
+  .red
+  {
+    color: red;
+    font-size: 50px;
+  }
+  .black
+  {
+    color: black;
+    font-size: 20px;
+  }
+  .picture 
+  {
+    float: left;
+  }
+  .big
+  {
+    font-size: 35px;
+  }
